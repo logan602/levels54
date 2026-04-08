@@ -5,5 +5,6 @@ include:
   - board: levels54_right
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y -DEXTRA_DTC_CPPFLAGS="-DRCLK=0;-DLCLK=0;-DMCLK=0"
-  - board: nice_nano_v2
+  - board: levels54_left
     shield: settings_reset
+    cmake-args: -DEXTRA_DTC_CPPFLAGS="-DRCLK=0;-DLCLK=0;-DMCLK=0"
